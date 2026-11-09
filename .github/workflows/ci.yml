@@ -1,3 +1,4 @@
+# Trigger: workflow registration refresh
 name: Karabiner-Elements CI
 
 on:
