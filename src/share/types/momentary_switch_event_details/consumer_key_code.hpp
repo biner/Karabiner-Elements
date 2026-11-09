@@ -145,6 +145,11 @@ constexpr std::pair<const mapbox::eternal::string, const pqrs::hid::usage::value
     {"ac_soft_key_left", pqrs::hid::usage::consumer::ac_soft_key_left},
     {"ac_desktop_show_all_applications", pqrs::hid::usage::consumer::ac_desktop_show_all_applications},
 
+    // Chromecast remote buttons
+    {"chromecast_youtube", pqrs::hid::usage::value_t(0x77)},
+    {"chromecast_netflix", pqrs::hid::usage::value_t(0x78)},
+    {"chromecast_input",   pqrs::hid::usage::value_t(0x89)},
+
     // Aliases
     {"fastforward", pqrs::hid::usage::consumer::fast_forward},
 };
